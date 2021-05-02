@@ -1,0 +1,47 @@
+#header {
+    height: 60vh;
+    background: $header-bg;
+    border-bottom-left-radius: 50px;
+    position: relative;
+    
+    .container {
+        position: relative;
+        max-width: $max-width;
+        margin: 0 auto;
+
+        .nav-bar-holder {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 2rem;
+            font-family: $font-family-2;
+            // ul {
+            //     align-self: start;
+            // }
+        }
+
+    }
+
+    .header-div {
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%, 30%);
+        text-align: center;
+        font-family: $font-family-1;
+        color: $white;
+
+        h1 {
+            font-size: 40px;
+        } 
+        
+        p {
+            color: $grayish-blue;
+        }
+    }
+}
+
+// #header::before {
+//     background: url('../images/bg-pattern-intro.svg') no-repeat center center/cover;
+// }
+

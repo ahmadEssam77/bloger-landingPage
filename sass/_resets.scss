@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+
+    li {
+        display: inline-block;
+
+        a {
+            text-decoration: none;
+            color: $white;
+
+            &:hover {
+                border-bottom: 2px solid $white;
+            }
+        }
+    }
+}
+
+.primary-btn {
+    background: transparent;
+    border: none;
+    color: $white;
+    padding: 15px 25px;
+
+    &:hover {
+        cursor: pointer;
+        background: $very-light-red;
+        border-radius: 25px;
+    }
+}
+
+.secondary-btn {
+    background: $very-light-red;
+    border: none;
+    color: $white;
+    padding: 15px 30px;
+    border-radius: 25px;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+
+    &:hover {
+        cursor: pointer;
+        background: $white;
+        color: $light-red;
+    }
+}
