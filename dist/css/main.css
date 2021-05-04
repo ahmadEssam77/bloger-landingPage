@@ -14,10 +14,6 @@ ul {
   list-style: none;
 }
 
-ul li {
-  display: inline-block;
-}
-
 ul li a {
   text-decoration: none;
   color: white;
@@ -83,6 +79,10 @@ ul li a:hover {
   font-family: "Ubuntu", sans-serif;
 }
 
+#header .container .nav-bar-holder ul li {
+  display: inline-block;
+}
+
 #header .header-div {
   position: absolute;
   left: 50%;
@@ -100,6 +100,55 @@ ul li a:hover {
 
 #header .header-div p {
   color: #c8c8cb;
+}
+
+#footer {
+  background: #25252d;
+  border-top-right-radius: 80px;
+  height: 50vh;
+  margin-top: 20rem;
+}
+
+#footer .container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#footer .container .footer-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 3rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#footer .container .footer-holder img {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+#footer .container .footer-holder ul li:first-child {
+  padding-bottom: 2rem;
+}
+
+#footer .container .footer-holder ul li:first-child a {
+  color: white;
+}
+
+#footer .container .footer-holder ul li:first-child a:hover {
+  cursor: default;
+  border-bottom: none;
+}
+
+#footer .container .footer-holder ul li a {
+  color: #c8c8cb;
+  line-height: 2;
 }
 
 .s-one .container {

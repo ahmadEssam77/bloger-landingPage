@@ -1,0 +1,48 @@
+#footer {
+    background: $very-dark-black-blue;
+    border-top-right-radius: 80px;
+    height: 50vh;
+    margin-top: 20rem;
+
+    .container {
+        max-width: $max-width;
+        margin: 0 auto;
+
+        .footer-holder {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 3rem;
+            font-family: $font-family-2;
+
+            img {
+                align-self: flex-start;
+            }
+
+            ul {
+
+                li {
+
+                    &:first-child {
+
+                        padding-bottom: 2rem;
+
+                        a {
+                            color: $white;
+
+                            &:hover {
+                                cursor: default;
+                                border-bottom: none;
+                            }
+                        }
+                    }
+
+                    a {
+                        color: $grayish-blue;
+                        line-height: 2;
+                    }
+                }
+            }
+        }
+    }
+}
