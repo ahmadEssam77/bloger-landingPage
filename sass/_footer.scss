@@ -11,7 +11,7 @@
         .footer-holder {
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            // align-items: center;
             padding-top: 3rem;
             font-family: $font-family-2;
 
@@ -19,29 +19,18 @@
                 align-self: flex-start;
             }
 
-            ul {
+            .first {
+                padding-bottom: 2rem;
+                color: $white;
+            }
 
-                li {
+            a {
+                color: $grayish-blue;
+                line-height: 2;
+            }
 
-                    &:first-child {
-
-                        padding-bottom: 2rem;
-
-                        a {
-                            color: $white;
-
-                            &:hover {
-                                cursor: default;
-                                border-bottom: none;
-                            }
-                        }
-                    }
-
-                    a {
-                        color: $grayish-blue;
-                        line-height: 2;
-                    }
-                }
+            a:hover {
+                border-bottom: 2px solid $grayish-blue;
             }
         }
     }

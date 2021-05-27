@@ -10,6 +10,10 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
 ul {
   list-style: none;
 }
@@ -121,9 +125,6 @@ ul li a:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding-top: 3rem;
   font-family: "Ubuntu", sans-serif;
 }
@@ -133,22 +134,18 @@ ul li a:hover {
       align-self: flex-start;
 }
 
-#footer .container .footer-holder ul li:first-child {
+#footer .container .footer-holder .first {
   padding-bottom: 2rem;
-}
-
-#footer .container .footer-holder ul li:first-child a {
   color: white;
 }
 
-#footer .container .footer-holder ul li:first-child a:hover {
-  cursor: default;
-  border-bottom: none;
-}
-
-#footer .container .footer-holder ul li a {
+#footer .container .footer-holder a {
   color: #c8c8cb;
   line-height: 2;
+}
+
+#footer .container .footer-holder a:hover {
+  border-bottom: 2px solid #c8c8cb;
 }
 
 .s-one .container {
