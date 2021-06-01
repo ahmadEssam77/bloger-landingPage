@@ -69,6 +69,40 @@ ul li a:hover {
   margin: 0 auto;
 }
 
+#header .container #selection-1 {
+  position: absolute;
+  background: white;
+  border-radius: 5px;
+  width: 120px;
+  padding: 7px;
+  display: none;
+}
+
+#header .container #selection-2 {
+  position: absolute;
+  left: 265px;
+  background: white;
+  border-radius: 5px;
+  width: 145px;
+  padding: 7px;
+  display: none;
+}
+
+#header .container #selection-3 {
+  position: absolute;
+  left: 390px;
+  background: white;
+  border-radius: 5px;
+  width: 120px;
+  padding: 7px;
+  display: none;
+}
+
+#header .container #selection-1 div:hover, #header .container #selection-2 div:hover, #header .container #selection-3 div:hover {
+  cursor: pointer;
+  font-weight: 500;
+}
+
 #header .container .nav-bar-holder {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -83,8 +117,13 @@ ul li a:hover {
   font-family: "Ubuntu", sans-serif;
 }
 
+#header .container .nav-bar-holder ul {
+  margin-left: -350px;
+}
+
 #header .container .nav-bar-holder ul li {
   display: inline-block;
+  padding: 1rem;
 }
 
 #header .header-div {
@@ -110,7 +149,7 @@ ul li a:hover {
   background: #25252d;
   border-top-right-radius: 80px;
   height: 50vh;
-  margin-top: 20rem;
+  margin-top: 9rem;
 }
 
 #footer .container {
@@ -141,7 +180,7 @@ ul li a:hover {
 
 #footer .container .footer-holder a {
   color: #c8c8cb;
-  line-height: 2;
+  line-height: 2.5;
 }
 
 #footer .container .footer-holder a:hover {
@@ -214,6 +253,10 @@ ul li a:hover {
   height: 400px;
 }
 
+.s-two .container .wrapper .right {
+  margin-left: 3rem;
+}
+
 .s-two .container .wrapper .right h2 {
   color: white;
   font-family: "Overpass", sans-serif;
@@ -244,7 +287,7 @@ ul li a:hover {
 .s-three .container .wrapper .left {
   overflow-x: hidden;
   max-width: 500px;
-  margin-top: 3rem;
+  margin-top: 13rem;
 }
 
 .s-three .container .wrapper .left h3 {

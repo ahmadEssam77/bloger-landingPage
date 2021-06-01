@@ -64,6 +64,7 @@
             height: 400px;
 
             .right {
+                margin-left: 3rem;
 
                 h2 {
                     color: $white;
@@ -93,7 +94,7 @@
             .left {
                 overflow-x: hidden;
                 max-width: 500px;
-                margin-top: 3rem;
+                margin-top: 13rem;
                 
                 h3 {
                     margin-bottom: 1rem;
@@ -115,5 +116,3 @@
         }
     }
 }
-
-

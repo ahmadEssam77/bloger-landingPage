@@ -9,6 +9,40 @@
         max-width: $max-width;
         margin: 0 auto;
 
+        #selection-1 {
+            position: absolute;
+            background: $white;
+            border-radius: 5px;
+            width: 120px;
+            padding: 7px;
+            display: none;
+        }
+
+        #selection-2 {
+            position: absolute;
+            left: 265px;
+            background: $white;
+            border-radius: 5px;
+            width: 145px;
+            padding: 7px;
+            display: none;
+        }
+
+        #selection-3 {
+            position: absolute;
+            left: 390px;
+            background: $white;
+            border-radius: 5px;
+            width: 120px;
+            padding: 7px;
+            display: none;
+        }
+
+        #selection-1 div:hover, #selection-2 div:hover, #selection-3 div:hover {
+            cursor: pointer;
+            font-weight: 500;
+        }
+
         .nav-bar-holder {
             display: flex;
             justify-content: space-between;
@@ -20,9 +54,15 @@
             // }
 
             ul {
+                margin-left: -350px;
 
                 li {
                     display: inline-block;
+                    padding: 1rem;
+
+                    // img {
+                    //     transform: rotate(180deg);
+                    // }
                 }
             }
         }
@@ -51,4 +91,5 @@
 // #header::before {
 //     background: url('../images/bg-pattern-intro.svg') no-repeat center center/cover;
 // }
+
 
